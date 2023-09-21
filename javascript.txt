@@ -1,0 +1,9 @@
+- javascript is a dynamic prgramming language.
+- javascriptwasa created to make web pages more dynmaic,originally it was called livescript but due to the popularity of java, it was renamed to javascript.
+- javascript is toatally independent from java and has nothing in common with java.
+
+- javascript code execution runs on single thread on our operating system.
+- chrome has V8 engine that parse, read, and executes our javascript code to our operating system.
+  - like firefox has spidermonkey to parse, read and executes the code.
+
+
