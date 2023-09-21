@@ -7,3 +7,9 @@
   - like firefox has spidermonkey to parse, read and executes the code.
 
 
+- variables is a data container which holds some data in it.
+- there are three types of variables which we can define in js.
+  - let (let can be re-define but can't be re-declare)
+  - var (can be re-define and also can re-declare)
+  - const (neither can be re-decalre nor re-define)
+- 
