@@ -18,5 +18,3 @@ let userName = "muskan"
 function user(num1,num2){
  return num1 + num2;
 }
-
-console.log(user(2,3));
