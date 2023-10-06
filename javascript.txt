@@ -35,3 +35,24 @@
  5. % Divide two numbers, yield remainder
  6. ** Exponentiation(2 ** 3 = 8) // simplification 2*2*2 = 8
  7. = Assign value to variable  
+
+ - MORE ON STRINGS
+ 1. Tempalate literals - `${dynamic value}`
+ 2. let message = 'An error ' +
+                  'occurred!'; // this is also a string without line break and without white spaces.
+ 3. let message = 'An error \n' +
+                  'occurred!'; // from this \n we can have line break.
+
+
+- FUNCTIONS                  
+1. Define Function
+        
+function nameOfFunction(parameter){
+  body of function;
+}
+
+2. Call Function
+
+nameOfFunction(argument);
+
+- alert() - this is built in function in js which gives us alert message.

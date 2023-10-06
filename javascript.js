@@ -12,8 +12,11 @@ let userName = "muskan"
  console.log(human) // output - lady
 
 // ============================================================
- let currentResult = 0;
+ 
+//Function
 
- currentResult = (currentResult + 10) * 3 / 2 - 1 ;
+function user(num1,num2){
+ return num1 + num2;
+}
 
- outputResult(currentResult, "")
+console.log(user(2,3));
