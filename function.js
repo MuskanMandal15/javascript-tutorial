@@ -133,7 +133,7 @@ console.log(areaOfRec(5,3));
 // What is the difference between function declarations and function expressions in
 // JavaScript?
 
-// solution 6 - option 3 (Function declarations can be anonymous, while function expressions cannot)
+// solution 6 - option 2 (function declarations are hoisted, while function expressions are not)
 
 // =======================================================================
 
@@ -171,8 +171,8 @@ function gradeCard(num1){
     return "C";
  }else if(num1>=60 && num1<=69){
     return "D";
- }else if(num1<60){
-    return "F"
+ }else{return "F"
+    
  }
 }
 console.log(gradeCard(studentScore));
