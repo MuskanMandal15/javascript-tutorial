@@ -171,7 +171,8 @@ function gradeCard(num1){
     return "C";
  }else if(num1>=60 && num1<=69){
     return "D";
- }else{return "F"
+ }else{
+   return "F"
     
  }
 }
@@ -182,7 +183,7 @@ console.log(gradeCard(studentScore));
 // Problem 9:
 // Find the error in the given code
 
-// solution 9 - 
+// solution 9 - bracket missing on line number 9
 
 // ============================================================
 
@@ -191,3 +192,14 @@ console.log(gradeCard(studentScore));
 
 // solution 10 - option 3 (by using the function's name followed by parentheses, like myFunction ())
 
+// =============================================================================================
+
+//DEFAULT PARAMETER
+
+function tableOfTwo(a=2){
+   for(let i=1;i<=10;i++){
+      console.log(`${a}*${i}=${a*i}`);
+   }
+
+}
+(tableOfTwo(5))
