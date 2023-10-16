@@ -119,5 +119,20 @@ function areaOfRec(length,width){
   
   // ========================================================================================
   
+  // problem 11:
+  //Write a JavaScript function called ‘calculateTotal’ that calculates the total cost of items in a shopping cart. Then, create another function called ‘applyDiscount’ that takes the total cost as a parameter and applies a discount. Finally, call the ‘calculateTotal’ function and pass its result to the ‘applyDiscount’ function.
+// Your task is to write the code for both functions and demonstrate the function call, providing the final discounted total.
+// You can use the following information:
+// Initial cart total: Rs. 1250.00
+// Discount rate: 10%
   
-  
+function calculateTotal(){
+
+}
+
+function applyDiscount(totalCost){
+
+}
+
+// ==========================================================================
+

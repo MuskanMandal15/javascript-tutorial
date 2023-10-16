@@ -154,3 +154,28 @@ function greet(name, lastName) {
 //     //code to handle error
 // }
 
+// =================================================================
+// CALL BACK FUNCTION
+
+function test(a,b){
+   a();
+}
+const hello = ()=>{
+   console.log("pink");
+}
+
+test(hello);
+
+// CLOSURES
+
+function a(){
+   return function b(){
+      return function c(){
+         console.log('first');
+      }
+   }
+}
+console.log(a()()());
+
+
+
