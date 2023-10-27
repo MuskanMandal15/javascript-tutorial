@@ -12,8 +12,8 @@ function greet(name, lastName) {
     return('Hello ' + name + ' ' + lastName);
  }
  
- console.log(greet('Mussu', 'Mandal'));
- console.log(greet('Harshu', 'Mandal'));
+//  console.log(greet('Mussu', 'Mandal'));
+//  console.log(greet('Harshu', 'Mandal'));
  
  
  // Calculating a value
@@ -21,7 +21,7 @@ function greet(name, lastName) {
  function square(number) {
      return number * number;
  }
- console.log(square(4));
+//  console.log(square(4));
  
  
  // let number = square(3);
@@ -52,7 +52,7 @@ function greet(name, lastName) {
  walk();
  
  function walk() {
-     console.log('walk');
+   //   console.log('walk');
  }
  
  //Function Expression 
@@ -76,13 +76,28 @@ function greet(name, lastName) {
  
  // console.log(sum(1, 2, 3, 4, 5, 6));
 //  ==================================================
- //The  Rest Operator
+//  The  Rest Operator
  
- // function sum(a,...args){
- //    console.log(args);
- // }
+ function sum(a,...para){
+   let sum = 0;
+   for(let value of para){
+      sum += value;
+   }
+   return sum;
+ }
  
- // console.log(sum(1, 2, 3, 4, 5, 6));
+ console.log(sum(1, 2, 3, 4, 5, 6));
+ // 1 is for a , so it ignores the 1 , that's why the output is 20
+
+ function subtract(){
+   let sub = 0;
+   for(let value of arguments){ // arguments is the reserve keyword it only allows to run where "function" keyword is present, don't use this
+      sub -= value;
+   }
+   return sub;
+ }
+ console.log(subtract(1, 2, 3, 4, 5, 6));
+ 
 // =======================================================================
 // getters & Setters
 
@@ -161,7 +176,7 @@ function test(a,b){
    a();
 }
 const hello = ()=>{
-   console.log("pink");
+   // console.log("pink");
 }
 
 test(hello);
@@ -171,11 +186,13 @@ test(hello);
 function a(){
    return function b(){
       return function c(){
-         console.log('first');
+         // console.log('first');
       }
    }
 }
-console.log(a()()());
+// console.log(a()()());
+
+
 
 
 
